@@ -18,8 +18,9 @@ import org.arpit.java2blog.service.CountryService;
 @Path("/countries")
 public class CountryController {
 	
-	CountryService countryService=new CountryService();
 	
+	CountryService countryService=new CountryService();
+	CountryService newObject = new CountryService();
 	
     @GET
     @Path("/getAll")
